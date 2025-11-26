@@ -1,0 +1,6 @@
+my_list=[11,12,13,67]     #O(1)
+print(my_list.append(19))
+my_list.append(17) #O(1)   #add or remove in O(1)
+my_list.pop(1)#O(1)
+my_list.insert(0,34)  #O(n)
+my_list.insert(1,'hi')
